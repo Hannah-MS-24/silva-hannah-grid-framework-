@@ -1,0 +1,35 @@
+#hero {
+   height: 150px;
+}
+
+#buy-now {
+   display: none;
+}
+
+#products div {
+   height: 150px;
+}
+
+#promo-social div {
+   height: 150px;
+}
+
+footer {
+   background-color: powderblue;
+}
+
+#footer-nav {
+   filter:contrast(2);
+}
+
+
+ @media screen and (min-width: 768px) {
+   #main-logo {
+      order: -1;
+   }
+
+   #hero {
+      height: 250px;
+   }
+
+ }
